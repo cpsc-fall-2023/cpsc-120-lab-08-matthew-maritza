@@ -15,15 +15,14 @@ int main(int argc, char* argv[]) {
               << "\n";
     return 1;
   }
-   
+
   std::string protein = (arguments[1]);
   std::string bread = (arguments[2]);
   std::string condiment = (arguments[3]);
 
   std::cout << "Your order:\n"
-            << "A " << protein 
-            << " sandwich on " << bread 
-            << " with " << condiment << "."
+            << "A " << protein << " sandwich on " << bread << " with "
+            << condiment << "."
             << "\n";
   // Validate that the number of arguments is correct.
   // If not, print an error message and return a non-zero value.
